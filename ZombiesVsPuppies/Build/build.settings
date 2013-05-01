@@ -1,0 +1,35 @@
+settings =
+{
+        orientation =
+        {
+                default = "landscapeRight",
+				content = "landscapeRight",
+				supported =
+					{
+							"landscapeRight"
+					},
+        },
+		android =
+		{
+			usesPermissions =
+			{
+			"com.android.vending.ACCESS_WIFI_STATE",
+			},
+			 largeHeap = true
+			 
+		},
+ 
+        iphone =
+        {
+                plist =
+                {
+                        UIPrerenderedIcon = true,
+						UIAppFonts = 
+						{
+							"Distro Toast.ttf",
+							"LithosPro-Black.otf"							
+						}						
+                },
+        }
+		
+}
